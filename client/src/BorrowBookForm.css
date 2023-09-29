@@ -1,0 +1,50 @@
+/* Styles for the BorrowBookForm */
+
+.borrow-book-form {
+    font-family: 'Arial', sans-serif;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.borrow-book-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.borrow-book-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    appearance: none;
+    
+    background-color: white;
+}
+
+.borrow-book-form select:focus {
+    border-color: #0077cc;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 119, 204, 0.5);
+}
+
+.borrow-book-form button {
+    padding: 10px 15px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.borrow-book-form button:hover {
+    background-color: #0055a4;
+}
